@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie sample1 (follow bardevblog)</title>
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+</head>
+<body>
+Movie Sample 1
+<script>
+    var Movie = Backbone.Model.extend({
+        initialize:function(){
+            console.log("Movie Model create");
+        }
+    });
+
+    var movie = new Movie();
+</script>
+</body>
+</html>
